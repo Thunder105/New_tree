@@ -13,6 +13,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
+# Gapps
+$(call inherit-product, vendor/gapps/gapps.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_violet
 PRODUCT_DEVICE := violet
