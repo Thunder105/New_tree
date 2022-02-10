@@ -13,6 +13,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_LEGACY_BOOTANIMATION := true
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
