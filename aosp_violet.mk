@@ -8,7 +8,12 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Pixel Experience stuff.
+# Pixel Extended 
+PEX_BUILD_TYPE := OFFICIAL
+PEX_MAINTAINER := Hariprakash
+org.pex.build_maintainer := Hariprakash
+
+# Inherit some common Pixel Extended stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 #TARGET_USES_AOSP_RECOVERY := true
